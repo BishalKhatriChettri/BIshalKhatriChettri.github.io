@@ -1,57 +1,97 @@
-/* Add your styles here */
+/* Reset some default styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #00FFFF; /* Cyan color variation */
-    color: #000; /* Black text */
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #E5E9E6;
+  color: #010101;
 }
 
-header {
-    background-color: #FFD700;
-    color: #000; /* Black text */
-    text-align: center;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.logo img {
-    width: 80px; /* Adjust the size as needed */
+.header {
+  background-color: #262624;
+  color: #E5E9E6;
+  padding: 10px 0;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+.logo {
+  font-family: 'Golomora', sans-serif;
+  font-size: 32px;
+  margin: 0;
 }
 
-nav ul li {
-    margin: 0 10px;
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #000; /* Black text */
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.slider {
-    /* Add styles for the slider */
+.nav-menu a {
+  color: #E5E9E6;
+  text-decoration: none;
 }
 
-#explore-menu,
-#top-selling,
-#all-time-favorites {
-    padding: 20px;
+.section {
+  padding: 40px 0;
 }
 
-.product img {
-    width: 100%; /* Make images fill the container */
+.footer {
+  background-color: #262624;
+  color: #E5E9E6;
+  text-align: center;
+  padding: 20px 0;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+.social-icons {
+  margin-top: 10px;
 }
+
+.icon-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #769BA4;
+}
+
+.icon-link:hover {
+  color: rgb(95, 151, 168);
+}
+
+/* Testimonial Styles */
+.testimonial {
+  background-color: #769BA4;
+  color: #E5E9E6;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form
