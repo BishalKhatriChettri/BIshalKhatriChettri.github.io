@@ -1,0 +1,57 @@
+/* Add your styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00FFFF; /* Cyan color variation */
+    color: #000; /* Black text */
+}
+
+header {
+    background-color: #FFD700;
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 80px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000; /* Black text */
+}
+
+.slider {
+    /* Add styles for the slider */
+}
+
+#explore-menu,
+#top-selling,
+#all-time-favorites {
+    padding: 20px;
+}
+
+.product img {
+    width: 100%; /* Make images fill the container */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
