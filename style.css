@@ -1,0 +1,240 @@
+/* Reset some default styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #E5E9E6;
+  color: #262624; /* Dark Charcoal */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #262624;
+  color: #E5E9E6;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-family: 'Golomora', sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-menu a {
+  color: #E5E9E6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #769BA4; /* Light Blue */
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #262624; /* Dark Charcoal */
+}
+
+.section-content {
+  margin-bottom: 40px;
+}
+
+.section-content p {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #769BA4; /* Light Blue */
+  color: #E5E9E6;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #56787d; /* Darker Blue */
+}
+
+.testimonial {
+  background-color: #769BA4; /* Light Blue */
+  color: #E5E9E6;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-left: 5px solid #56787d; /* Darker Blue */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon-link {
+  display: inline-block;
+  margin-right: 15px;
+  color: #262624; /* Dark Charcoal */
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #769BA4; /* Light Blue */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #E5E9E6; /* Light Gray */
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background-color: #769BA4; /* Light Blue */
+  color: #E5E9E6;
+  border: 2px solid #769BA4; /* Light Blue */
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #56787d; /* Darker Blue */
+  color: #fff; /* White */
+  border-color: #56787d; /* Darker Blue */
+}
+
+.footer {
+  background-color: #262624;
+  color: #E5E9E6;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+.footer .icon-link {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+  .nav-menu li {
+    margin-right: 15px;
+  }
+  .section {
+    padding: 40px 0;
+  }
+  .testimonial {
+    padding: 15px;
+  }
+  .footer .icon-link {
+    font-size: 20px;
+  }
+}
+
+/* About Me Section */
+.about-me {
+  background-color: #F7F9F8; /* Light Gray */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.about-me h2 {
+  color: #262624; /* Dark Charcoal */
+}
+
+/* Achievements Section */
+.achievements {
+  background-color: #FFF6E5; /* Light Yellow */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.achievements h3 {
+  color: #FF9800; /* Orange */
+}
+
+/* Services Section */
+.services {
+  background-color: #F0F4F2; /* Light Green */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.services ul {
+  color: #262624; /* Dark Charcoal */
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #FAF8F8; /* Light Gray */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.testimonials .testimonial {
+  background-color: #F0F4F2; /* Light Green */
+  color: #262624; /* Dark Charcoal */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Blog/Articles Section */
+.blog {
+  background-color: #FFF6E5; /* Light Yellow */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.blog h2 {
+  color: #FF9800; /* Orange */
+}
+
+/* Contact Me Section */
+.contact {
+  background-color: #F7F9F8; /* Light Gray */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  color: #262624; /* Dark Charcoal */
+}
